@@ -14,10 +14,8 @@ const Footer = () => {
 					<span className="text-primary text-2xl px-1 dark:text-primaryDark">
 						&#9825;
 					</span>
-					by&nbsp;
-					<a>JuanDawd</a>
+					by JuanDawd
 				</div>
-				<Link href="/">Say hello</Link>
 			</Layout>
 		</footer>
 	)

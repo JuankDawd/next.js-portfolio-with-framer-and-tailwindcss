@@ -4,7 +4,7 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image, { StaticImageData } from 'next/image'
 import Link from 'next/link'
-import React, { MouseEventHandler, SyntheticEvent, useRef } from 'react'
+import React, { useRef } from 'react'
 import featuredArticleOne from '../../public/images/articles/pagination component in reactjs.jpg'
 import featuredArticleTwo from '../../public/images/articles/create loading screen in react js.jpg'
 import articleOne from '../../public/images/articles/form validation in reactjs using custom react hook.png'
@@ -154,7 +154,10 @@ const articles = () => {
 		<>
 			<Head>
 				<title>Articles Page</title>
-				<meta name="description" content="" />
+				<meta
+					name="description"
+					content="Dive into the world of web development through informative articles. Explore my insights on front-end and back-end techniques, responsive design, coding tips, and the latest trends in the digital realm. Stay updated with expert advice on HTML, CSS, JavaScript, and more. Enhance your knowledge in web development with our in-depth articles."
+				/>
 			</Head>
 			<TransitionEffect />
 			<main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden">

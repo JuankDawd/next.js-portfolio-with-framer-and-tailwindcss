@@ -71,7 +71,12 @@ const FeaturedProject = ({
 				</p>
 
 				<div className="mt-2 flex items-center">
-					<Link href={github} target="_blank" className="w-10 dark:text-light">
+					<Link
+						href={github}
+						target="_blank"
+						className="w-10 dark:text-light"
+						aria-label={title}
+					>
 						<GithubIcon />
 					</Link>
 					<Link
@@ -143,7 +148,12 @@ const Project = ({
 					>
 						Visit
 					</Link>
-					<Link href={github} target="_blank" className="w-8 md:w-6">
+					<Link
+						href={github}
+						target="_blank"
+						className="w-8 md:w-6"
+						aria-label={title}
+					>
 						<GithubIcon />
 					</Link>
 				</div>
@@ -157,7 +167,10 @@ const projects = () => {
 		<>
 			<Head>
 				<title>Projects Page</title>
-				<meta name="description" content="" />
+				<meta
+					name="description"
+					content="Explore a showcase of my web development projects. Dive into a portfolio that demonstrates my expertise in front-end and back-end development, responsive design, and custom web applications. Discover how my skills in HTML, CSS, JavaScript, and more bring digital visions to life. Get inspired by a collection of innovative web solutions."
+				/>
 			</Head>
 			<TransitionEffect />
 			<main className="w-full mb-16 flex flex-col items-center justify-center">
